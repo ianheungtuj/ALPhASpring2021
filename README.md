@@ -9,14 +9,14 @@ This repository contains code to train and make predictions on simulated particl
 (_TODO: This is potentially out-of-date and needs to be updated_)
 The general directory is structured like this. The `Data` folder and `ModelCheckpoints` folder are not in the GitHub repository, but will be created by the code in the repository.
 
-![Folder Directory](Folder_Directory.png)
+![Folder Directory](assets/Folder_Directory.png)
 
 ### Data
 To get the raw data `oldRawDataTxtFiles`, you will likely need to ask Michelle or Raghu for help. There was issues with trying to get the raw data due to permissions.
 
 The data will be organized so all the data files are under one single folder ‘Data’. The data is not in the repository because it would take up too much space. The data is organized in the following directory structure:
 
-![Data Directory](DataDirectory.png)
+![Data Directory](assets/DataDirectory.png)
 
 --→ `3DArrays` (Arrays for general use. Data is sorted into their particles without randomization. Array format: "[x, y, z, charge]")
 
@@ -37,7 +37,7 @@ The data will be organized so all the data files are under one single folder ‘
 ### ModelCheckpoints
 The `ModelCheckpoints` folder stores all the checkpoints, learning curves, and confusion matrices for each instance of model training.
 
-![Checkpoint Directory](CheckpointDirectory.png)
+![Checkpoint Directory](assets/CheckpointDirectory.png)
 
 ## Dependencies
 Set up a virtual enviroment for the running of the code, as there are several dependencies required in the code. I used anaconda, but pip or any other virtual enviroment system should be similiar. Here are a list of the python packages require to be installed for running the code:
