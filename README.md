@@ -1,8 +1,6 @@
 以下のリポジトリは研究ユニットALPhAの二年生のCNNプロジェクトです。ユニットのGitHubはプライベートのため、このリポジトリはクローンされています。プロジェクトのReadMeは全文英語ですので、ご了承ください。
-
-
-
-
+ <br />
+ 
 # Single Track Particle Id
 ## Introduction
 This repository contains code to train and make predictions on simulated particle tracks from the Spirit TPC. The model architectures used are 2D Convolutional Neural Networks (2D CNN), 3D Convolutional Neural Networks (3D CNN), and PointNet. Linked [here](https://groups.nscl.msu.edu/hira/cosmic/SpiritTPC.html) is more information about the actual detector, the SAMURAI Pion Reconstruction and Ion Tracker Time Projecting Chamber (SπRIT TPC). 
